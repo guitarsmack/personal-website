@@ -1,20 +1,48 @@
 .wrapper {
-  background-color: aliceblue;
-  padding: .3em;
+  padding: .1em;
+  background-color: white;
 }
 
 .monster_face {
   width: 100%;
 }
 
-div#monsters .monster {
+div#monstersr .monster {
   margin-bottom: 15px;
   margin-right: 5px;
   margin-left: 5px;
   margin-top: 5px;
   padding: 0.2em;
-  font-size: 100%;
+  font-size: 1vw;
   line-height: 1.5em;
+}
+
+div#monstersr {
+  float: right;
+  background-color: black;
+  width: 15%;
+  border-width: 2px;
+  border-style: ridge;
+  border-color: #cccccc;
+}
+
+div#monstersl .monster {
+  margin-bottom: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 0.2em;
+  font-size: 1vw;;
+  line-height: 1.5em;
+}
+
+div#monstersl {
+  float: left;
+  background-color: black;
+  width: 15%;
+  border-width: 2px;
+  border-style: ridge;
+  border-color: #cccccc;
 }
 
 div#godzilla {
@@ -48,31 +76,24 @@ div#kong {
   color: black;
 }
 
-div#monsters {
-  float: right;
-  background-color: black;
-  width: 15em;
-  border-width: 2px;
-  border-style: ridge;
-  border-color: #cccccc;
-}
+
 
 body {
   background-color: black
 }
 
 div.words, div.wrapper {
-  width: 70%;
-  margin: auto;
   text-align: center;
+  margin-right: 16%;
+  margin-left: 16%;
 }
 
 .words {
-  height: 1200px;
+  height: 100vh;
+  background-color: tan;
 }
 
 .words p {
-  background-color: tan;
   height: 90%;
   padding: 1em;
   font-size: 150%;
